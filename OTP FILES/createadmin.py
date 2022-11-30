@@ -2,7 +2,7 @@ import sqlite3
 from dbase import *
 
 def main():
-    # adminid = input("5743255635")
+    # adminid = input("5578275728")
     # check = check_admin(adminid)
     # if check == True:
     #     print("Admin already exists")
@@ -14,7 +14,7 @@ def main():
     #         print('something went wrong')
     #     else:
     #         print('Admin created...')
-    #        create_admin(5743255635)
+    #        create_admin(5578275728)
     james = fetch_UserData_table()
     print(james)
 if __name__ == '__main__':
